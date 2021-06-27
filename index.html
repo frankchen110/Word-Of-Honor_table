@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>山河令測驗</title>
+  </head>
+  <body>
+    <div class="cover">
+      <div class="spinner-border text-warning" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="progress fixed-top h5 z1">
+      <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="container">
+      <header>
+        <img src="images/1.png" alt="" class="img img1">
+        <img src="images/2.png" alt="" class="img img2">
+        <img src="images/3.png" alt="" class="img img3">
+        <img src="images/4.png" alt="" class="img img4">
+        <img src="images/5.png" alt="" class="img img5">
+        <img src="images/6.png" alt="" class="img img6">
+        <img src="images/7.png" alt="" class="img img7">
+        <img src="images/8.png" alt="" class="img img8">
+      </header>
+      <nav>
+        <div class="btn btn-info btn-prev">上一頁</div>
+        <div class="btn btn-warning btn-send">送出</div>
+        <div class="btn btn-info btn-next">下一頁</div>
+      </nav>
+      <section>
+        <article id="article1" class="article1">
+          <h1>電視劇山河令-粉絲細心度調查表</h1>
+          <p>各位親愛的山人您們好~我們是山河令推動協調與影響評估計畫調查局。本次主題為「山河令細心向粉絲追追追」。歡迎全球各地的山人們一起幫忙填寫，增加可信度唷~感謝、感謝!</p>
+          <div>
+            感謝山人們的支持！
+          </div>
+        </article>
+        <article id="article2" class="article2">
+          <div class="input-group mb-1 main-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">姓名</span>
+            </div>
+            <input type="text" class="form-control" id="userName" name="userName" placeholder="必填">
+          </div>
+          <div class="input-group mb-1 main-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">請問您是何時上山(入坑)的?</span>
+            </div>
+            <input type="text" class="form-control" id="schoolName" name="schoolName" placeholder="必填，請填年月">
+          </div>
+          
+          <div class="main-group">
+            <div class="input-group mb-1">
+              <div class="input-group-prepend">
+                <span class="input-group-text">誰不屬於四季山莊?</span>
+              </div>
+              <div class="input-group-append flex-wrap flex-fill p-1 border border-left-0 rounded-lg schoolTypeRight">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <input type="radio" id="schoolType1" name="schoolType" value="成嶺">
+                    </div>
+                  </div>
+                  <div class="input-group-text flex-fill d-block">
+                    <label class="d-block" for="schoolType1">成嶺</label>
+                  </div>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <input type="radio" id="schoolType2" name="schoolType" value="沈慎">
+                    </div>
+                  </div>
+                  <div class="input-group-text flex-fill d-block">
+                    <label class="d-block" for="schoolType2">沈慎</label>
+                  </div>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <input type="radio" id="schoolType3" name="schoolType" value="溫客行">
+                    </div>
+                  </div>
+                  <div class="input-group-text flex-fill d-block">
+                    <label class="d-block" for="schoolType3">溫客行</label>
+                  </div>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <input type="radio" id="schoolType4" name="schoolType" value="周子舒">
+                    </div>
+                  </div>
+                  <div class="input-group-text flex-fill d-block">
+                    <label class="d-block" for="schoolType4">周子舒</label>
+                  </div>
+                </div>     
+              </div>
+            </div>
+          </div>
+          
+          
+     
+
+          <div class="input-group mb-1 main-group main-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">成嶺的師父有誰?</span>
+            </div>
+            <input type="text" class="form-control" id="userTitle" name="userTitle" placeholder="請打容易辨識的角色名稱">
+          </div>
+          <div class="input-group mb-1 main-group">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="userIdentity">哪一個不屬於山河令的武器</label>
+            </div>
+            <select class="custom-select" id="userIdentity" name="userIdentity">
+              <option disabled selected value>請勾選以下一款武器</option>
+              <option value="龍背">龍背</option>
+              <option value="白衣劍">白衣劍</option>
+              <option value="避塵">避塵</option>
+              <option value="雨打芭蕉針">雨打芭蕉針</option>
+            </select>
+          </div>
+          <div class="input-group mb-1 main-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">阿絮身上有幾個釘子?</span>
+            </div>
+            <input type="text" class="form-control" id="userTel" name="userTel" placeholder="您的回答(請打阿拉伯數字)">
+          </div>
+          <div class="input-group mb-1 main-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">溫客行的媽媽是怎麼死的?</span>
+            </div>
+            <input type="text" class="form-control" id="email" name="email" placeholder="請簡述即可，謝謝">
+          </div>
+        </article>
+        <article id="article3" class="article3">
+          <h3>二、浪浪釘考驗</h3>
+          <p>山人們好~此區考驗各位對於現實生活中老溫跟阿絮互動的了解，我們希望了解山人們入坑山河令的程度，感謝各位耐心填答。</p>
+          
+
+
+        </article>
+        <article id="article4" class="article4">
+          <div class="question">請問以下哪幾組是一家?</div>
+            <div class="input-group flex-wrap flex-fill main-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" id="userNeed2-1" name="userNeed2" value="蠍兒、趙敬">
+                  </div>
+                </div>
+                <div class="input-group-text flex-fill d-block">
+                  <label class="d-block" for="userNeed2-1">蠍兒、趙敬</label>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" id="userNeed2-2" name="userNeed2" value="阿絮、老溫、成嶺">
+                  </div>
+                </div>
+                <div class="input-group-text flex-fill d-block">
+                  <label class="d-block" for="userNeed2-2">阿絮、老溫、成嶺</label>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" id="userNeed2-3" name="userNeed2" value="黃鶴、桃紅綠柳">
+                  </div>
+                </div>
+                <div class="input-group-text flex-fill d-block">
+                  <label class="d-block" for="userNeed2-3">黃鶴、桃紅綠柳</label>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" id="userNeed2-4" name="userNeed2" value="阿湘、曹蔚寧">
+                  </div>
+                </div>
+                <div class="input-group-text flex-fill d-block">
+                  <label class="d-block" for="userNeed2-4">阿湘、曹蔚寧</label>
+                </div>
+              </div>     
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" id="userNeed2-5" name="userNeed2" value="其他">
+                  </div>
+                </div>
+                <div class="input-group-append flex-fill">
+                  <div class="input-group-prepend">
+                    <label class="d-block input-group-text" for="userNeed2-5">其他</label>
+                  </div>
+                  <div class="input-group-append flex-fill">
+                    <input type="text" class="form-control" id="userNeed2-5-text" name="userNeed2-5-text" placeholder="請詳述，謝謝">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </article>
+        <article id="article5" class="article5">
+          <p>請問老溫的衣服有那些顏色?</p>
+          <div class="input-group flex-wrap flex-fill main-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" id="userNeed1-1" name="userNeed1" value="湖水綠">
+                  </div>
+                </div>
+                <div class="input-group-text flex-fill d-block">
+                  <label class="d-block" for="userNeed1-1">湖水綠</label>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" id="userNeed1-2" name="userNeed1" value="紅配綠">
+                  </div>
+                </div>
+                <div class="input-group-text flex-fill d-block">
+                  <label class="d-block" for="userNeed1-2">紅配綠</label>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" id="userNeed1-3" name="userNeed1" value="火焰紅">
+                  </div>
+                </div>
+                <div class="input-group-text flex-fill d-block">
+                  <label class="d-block" for="userNeed1-3">火焰紅</label>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" id="userNeed1-4" name="userNeed1" value="生薑黃">
+                  </div>
+                </div>
+                <div class="input-group-text flex-fill d-block">
+                  <label class="d-block" for="userNeed1-4">生薑黃</label>
+                </div>
+              </div>     
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" id="userNeed1-5" name="userNeed1" value="其他">
+                  </div>
+                </div>
+                <div class="input-group-append flex-fill">
+                  <div class="input-group-prepend">
+                    <label class="d-block input-group-text" for="userNeed1-5">其他</label>
+                  </div>
+                  <div class="input-group-append flex-fill">
+                    <input type="text" class="form-control" id="userNeed1-5-text" name="userNeed1-5-text" placeholder="請詳述，謝謝">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </article>
+        <article id="article6" class="article6">
+          <label for="userNeed3">請表述浪浪釘的意義</label>
+          <div class="main-group">
+            <div class="main-group">
+              <textarea class="form-control" name="userNeed3" id="userNeed3" cols="30" rows="10" placeholder="自由填答"></textarea>
+            </div>
+          </div>
+        </article>
+        <article id="article7" class="article7">
+          <label for="userNeed4">想對主角們說的話</label>
+        
+          <div class="main-group">
+            <div class="main-group">
+              <textarea class="form-control" name="userNeed4" id="userNeed4" cols="30" rows="10" placeholder="您的回答"></textarea>
+            </div>
+          </div>
+        </article>
+        <article id="article8" class="article8">
+          <div class="text">謝謝填寫</div>
+          <a href="./list.html">看看其他人都答了些啥</a>
+        </article>
+      </section>
+    </div>
+    <footer class="bg-info">
+      <a class="text-white" href="https://docs.google.com/spreadsheets/d/1L52nMxjXgoM89vB8Lv_T_qinVFYvnM9txutrcVBScio/edit#gid=0" target="_blank">本表單內容純屬娛樂，請勿當真。若有侵害權利，敬請告知，會盡快刪除，感謝。</a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+  <template id="tipTemplate01" style="display: none;">
+    <div class="tip">
+      <i class="fa fa-exclamation-circle"></i>
+      <span>這是一個必填欄位</span>
+    </div>
+  </template>
+</html>
